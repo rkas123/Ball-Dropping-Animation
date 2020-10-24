@@ -4,7 +4,7 @@ canvas.height=window.innerHeight;
 var c=canvas.getContext("2d");
 var gravity=1;
 var coefficientOfRestitution= 0.8;
-const colors=["#ebebeb","#f5a25d","#fa7f72","#389393"];
+const colors=["#2C3E50","#E74C3C","#ECF0F1","#3498DB","#2980B9"];
 window.addEventListener("resize",function(){
     canvas.width=window.innerWidth;
     canvas.height=window.innerHeight;
@@ -20,7 +20,7 @@ function Ball(x,y,dx,dy,radius)
     this.dy=dy;
     this.dx=dx;
     this.radius=radius;
-    this.color=colors[Math.floor(Math.random()*4)];
+    this.color=colors[Math.floor(Math.random()*colors.length)];
     this.draw=function()
     {
         c.beginPath();
