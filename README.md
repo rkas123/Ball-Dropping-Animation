@@ -1,4 +1,4 @@
-file:///C:/Users/Ved%20Prakash/Desktop/Practice/Gravity/index.html
+https://rkas123.github.io/Ball-Dropping-Animation/
 
 This Ball Dropping Animation is made using Vanilla JS only without any frameworks or packages.
 
